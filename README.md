@@ -1,4 +1,4 @@
 PipSqueek
 =========
 
-Performance timing reporting using navigation.timing
+Performance timing reporting using performance.timing
