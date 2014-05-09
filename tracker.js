@@ -6,7 +6,7 @@ var times = performance.timing.toJSON();
 var start = times.navigationStart;
 var data = "";
 var currentLocation = location.pathname.substring(1);
-data += "psid=" + squeek;
+data += "psid=" + pip;
 data += "&pg=" + currentLocation;
 for (var prop in times) {
     var justMS = times[prop] - start;
