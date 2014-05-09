@@ -2,13 +2,13 @@
 //	Inspired by Google Analytics tracking code
 //
 //	Variables:
-//		pip - where your tracker script is hosted, no http/https required
-//		squeek - Unique ID for site/page/etc...
+//		squeek - where your tracker script is hosted, no http/https required
+//		pip - Unique ID for site/page/etc...
 //
 
 
-var pip = "domain.com/path/to/tracker.js";
-var squeek = "xxxx-xxxx-xxxx-xxxx";
+var squeek = "domain.com/path/to/tracker.js";
+var pip = "xxxx-xxxx-xxxx-xxxx";
 
   (function() {
 	var tc = document.createElement('script'); 
